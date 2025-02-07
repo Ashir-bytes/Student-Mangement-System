@@ -11,7 +11,7 @@ Provide step-by-step instructions on how to install and set up your project.
 git clone https://github.com/yourusername/project-sufiyan.git
 
 # Navigate to the project directory
-cd project-sufiyan
+cd Student-Management-System
 
 # Install dependencies
 npm install
