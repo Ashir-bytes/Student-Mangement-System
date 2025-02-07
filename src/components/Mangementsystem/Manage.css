@@ -1,0 +1,63 @@
+.manage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-top: 50px;
+}
+
+.heading{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 50px 0px;
+}
+.showlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 50px 0;
+    background: #111;
+    border-radius: 15px ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 50px 0px;
+}
+table{
+    width: 80vw;
+}
+
+table tr th{
+    padding: 10px 0;
+    background-color: rebeccapurple;
+    color: white;
+}
+
+table  tbody td{
+    padding: 10px 0;
+    color: white;
+    text-transform: capitalize;
+    padding: 0 auto;
+
+}
+
+table tbody tr td {
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+}
+
+.add_btn{
+    cursor: pointer;
+    background-color: green;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}   
+table tbody .del_btn{
+    cursor: pointer;
+    background-color: crimson;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
